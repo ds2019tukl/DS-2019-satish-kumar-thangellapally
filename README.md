@@ -1,6 +1,6 @@
-# Exercise: Introduction to Data Science
+# Course: Introduction to Data Science
 
-I have done the this project as a part of the academic course and below is the problem statement.
+I have done the this project as a part of the academic course at TU kaiserslautern and below is the problem statement.
 
 
 
@@ -24,7 +24,7 @@ Understand the data, visual explanation and Define a possible business case
 
 #Exercise 2: 
 1.Develop a simple predictive reference model for reference
-2. Develop a machine learning model related to a business case
+2.Develop a machine learning model related to a business case
 3. Analyze and compare the result and understand the modelling procedure
 
 #Acceptance criteria for each exercise
@@ -59,13 +59,15 @@ Build a model which predicts the average daily price of the next day.
 Apply a time series back testing procedure! (two third of the data for training and one
 third for evaluation of the model
 Step 0: prepare data set
+
 • Attention for this the data set has to be cleaned and normalized to daily data!
-• The entire analysis has to be performed on 100 gas stations
-• Choose the 100 gas stations with the longest time history
-• Ensure that all stations have all identical time horizon and steps (open and close
-hour identical for all 100 stations, take 7:00 to 20:00). Align all data before
-calculating the average price of the day to ensure comparable daily prices!
+• The entire analysis has to be performed on 100 gas stations 
+• Choose the 100 gas stations with the longest time history 
+• Ensure that all stations have all identical time horizon and steps (open and close hour
+identical for all 100 stations, take 7:00 to 20:00). Align all data before calculating
+the average price of the day to ensure comparable daily prices!
 • ensure a perfect data set, clean outlier
+
 Step 1: start with small (3 stations) data set and develop a simple reference model
 • Extract a small good data set you can start with
 • Start with a trivial model (reference model), use a simple moving average
@@ -73,7 +75,8 @@ Step 1: start with small (3 stations) data set and develop a simple reference mo
 • Check and visualize the results
 • Use an appropriate metric for the forecast error: mean absolute deviation (MAD)
 and mean absolute percentage error (MAPE)
-• Do a visualization of the predicted output (time series
+• Do a visualization of the predicted output
+
 Step 2: go with a more complicated model
 • Use a more elaborated time series modeling.
 • Use the Facebook Prophet package
