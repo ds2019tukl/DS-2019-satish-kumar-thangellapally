@@ -1,50 +1,40 @@
-# DS-2019-satish-kumar-thangellapally
+# Exercise: Introduction to Data Science
 
-Exercise: Introduction to Data Science
+I have done the this project as a part of the academic course and below is the problem statement.
+
+
+
 You are working as a data scientist for a company which maintaining a larger car fleet
 for their maintenance services. The company would like to know:
 Do we have an added value for the company by knowing more about the gas
 prices?
-The provided data (Olat System) show an extraction of the gasoline prices in Germany.
+The provided data show an extraction of the gasoline prices in Germany.
 The full historic and the description of the data can be accessed at:
 https://creativecommons.tankerkoenig.de.
-Exercise Goal:
-•
-•
-•
+
+#Exercise Goal:
+
 Learn a systematic approach to deal with a high level business request
 Learn a data driven approach to ask and answer the correct questions
-Learn a systematic approach to derive a machine learning model
-Procedure:
-•
-• Exercise 1: Understand the data, visual explanation
-Exercise 1: Define a possible business case
-•
-•
-• Exercise 2: Develop a simple predictive reference model for reference
-Exercise 2: Develop a machine learning model related to a business case
-Exercise 2: Analyze and compare the result and understand the modelling
-procedure
-Deadlines:
-•
-•
-Fr. 28.06.2019 deadline programming exercise 1
-Fr 16.08.2019 deadline programming exercise 2
-Acceptance criteria for each exercise
-•
-•
-•
-•
-•
-•
+Learn a systematic approach to derive a machine learning model proceedure
+
+#Exercise 1: 
+
+Understand the data, visual explanation and Define a possible business case
+
+#Exercise 2: 
+1.Develop a simple predictive reference model for reference
+2. Develop a machine learning model related to a business case
+3. Analyze and compare the result and understand the modelling procedure
+
+#Acceptance criteria for each exercise
+
 For each question a representative visual chart including a text for interpretation
 has to be performed
 The results have to be submitted via a 2 IPyhton notebooks, one for each exercise
 At least 3 test have to be included in each exercise
 At least 3 function have to be included in each exercise
-Tests have to be written for each of the 3 functions (import unittest)
-The results have to be submitted via the GITLAB:
-https://classroom.github.com/g/hjbNYUyBExercise 1: understand/analyze the data
+#Exercise 1: understand/analyze the data
 1. How many different stations exist in the data set and what is the existing history
 in days (bar chart)?
 2. What is the min, mean, max price for each gasoline type and station weekly (time
@@ -62,7 +52,9 @@ and diesel.
 10. Describe a possible business potential in € for the customer (textual description
 in the ipyhton file). Define the constraints of the business case 5 lines, the
 answer max 15 lines (high level summary)
-Exercise 2: time series predictive model and evaluation
+
+#Exercise 2: time series predictive model and evaluation
+
 Build a model which predicts the average daily price of the next day.
 Apply a time series back testing procedure! (two third of the data for training and one
 third for evaluation of the model
